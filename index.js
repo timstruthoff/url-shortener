@@ -8,7 +8,7 @@ const port = process.env.PORT || 80;
 const myData = {};
 
 const createShortFromId = id => {
-    return `http://localhost:${port}/${id}`
+    return `https://tims-url-shortener.herokuapp.com/${id}`
 };
 
 app.use(express.urlencoded({
