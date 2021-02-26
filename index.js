@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const hri = require('human-readable-ids').hri;
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 const myData = {};
 
